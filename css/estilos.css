@@ -1,0 +1,16 @@
+body{
+  font-family: "Dancing Script", cursive;
+  background-color: black;
+}
+.contenedor1{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+}
+.contenedor1 h1{
+  text-shadow: 2px 2px 2px #02010a;
+}
+.contenedor1 a{
+  color: white;
+  text-decoration: none;
+}
