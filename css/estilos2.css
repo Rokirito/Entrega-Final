@@ -1,0 +1,12 @@
+body{
+  background-color: black;
+  color: white;
+}
+header{
+  background-color: #5b7989;
+  padding: 100px;
+}
+section{
+  background-color: #82c3a6;
+  padding: 100px;
+}

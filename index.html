@@ -9,30 +9,39 @@
   </head>
   <body>
     <header>
-      <div class="contenedor1">
-        <h1>Comenzando con la Fotografia</h1>
-        <a href="#central">Inicio</a>
-        <a href="html/paisajes.html">Paisajes</a>
-        <a href="html/retratos.html">Retratos</a>
+      <div class="contenedor-superior">
+        <div class="titulo">
+          <h1>Comenzando con la Fotografia</h1>
+        </div>
+        <div class="contenedor-links">
+          <a id="inicio" class="links" href="#central">Inicio</a>
+          <a id="paiasjes" class="links" href="html/paisajes.html">Paisajes</a>
+          <a id="retratos" class="links" href="html/retratos.html">Retratos</a>
+        </div>
       </div>
     </header>
     <section>
       <article class="central">
-        <figure>
+        <figure class="imagen-central">
           <img src="imagenes/imagen-central.jpg" alt="Imagen Central">
           <figcaption>La via a la Naturaleza</figcaption>
         </figure>
       </article>
       <article class="secundaria">
-        <figure>
-          <img src="imagenes/imagen-paisaje.jpg" alt="Imagen izquierda">
+        <figure class="imagen-paisajes">
+          <a href="html/paisajes.html"><img src="imagenes/imagen-paisaje.jpg" alt="Imagen izquierda"></a>
           <figcaption>Naturaleza</figcaption>
         </figure>
-        <figure>
-          <img src="imagenes/retrato.jpg" alt="Imagen Derecha">
+        <figure class="imagen-retratos">
+          <a href="html/retratos.html"><img src="imagenes/retrato.jpg" alt="Imagen Derecha"></a>
           <figcaption>Mujer, Ser Natural</figcaption>
         </figure>
       </article>
     </section>
+    <footer>
+      <div class="contenedor-final">
+
+      </div>
+    </footer>
   </body>
 </html>

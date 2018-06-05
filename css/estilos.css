@@ -1,16 +1,67 @@
 body{
   font-family: "Dancing Script", cursive;
-  background-color: black;
-}
-.contenedor1{
-  background-color: #5b7989;
-  border-radius: 10px 10px 0px 0px;
+  background-color: #02010a;
   color: white;
 }
-.contenedor1 h1{
-  text-shadow: 2px 2px 2px #02010a;
+img{
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  filter: drop-shadow(2px 2px 2px #02010a);
 }
-.contenedor1 a{
-  color: white;
-  text-decoration: none;
+.central{
+  background-color: #82c3a6;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.2%;
+}
+.imagen-central{
+  text-align: center;
+}
+.imagen-central img{
+  width: 90%;
+  text-align: center;
+}
+.secundaria{
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+}
+.secundaria img{
+  width: 40%;
+}
+@media (min-width:900px) {
+  .contenedor-superior{
+    background-color: #5b7989;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2%;
+  }
+  .titulo{
+    order: 1;
+    width: 50%;
+    margin-left: 2%;
+    text-shadow: 2px 2px 2px #02010a;
+  }
+  .contenedor-links {
+    order: 2;
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: right;
+  }
+  .contenedor-superior .contenedor-links a{
+    color: white;
+    text-decoration: underline;
+    padding: 5px;
+    margin: 10px;
+    font-size: 1.2em;
+  }
+  #inicio{
+    text-decoration: none;
+  }
 }
