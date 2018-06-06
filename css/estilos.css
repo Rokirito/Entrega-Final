@@ -199,6 +199,21 @@ header{
   #inicio{
     text-decoration: none;
   }
+  .secundaria{
+    background-color: #d5c75f;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .secundaria .imagen-paisajes{
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+  .secundaria .imagen-retratos{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
   .contenedor-final{
     display: flex;
     flex-wrap: wrap;
